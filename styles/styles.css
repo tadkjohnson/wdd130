@@ -10,7 +10,7 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: rgb(99, 99, 207);
 }
 
 img {
@@ -30,9 +30,9 @@ main {
 aside {
     max-width: 840px;
     margin: 1rem;
-    border-radius: 0%;
+    border-radius: 2px dash rgba(0,0,0,0.2);
     padding: 0%;
-    background-color: #686666;
+    background-color: rgba(211, 211, 211, 0.973);
     color:black;
     text-align: center;
 
