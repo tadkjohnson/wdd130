@@ -1,0 +1,21 @@
+:root {
+    --heading-background-color: e7dfc6;
+    --heading-text-color: 2274a5;
+    --heading-text-color2: 816c61;
+    --heading-text-color3: 131b23;
+    --box-border-color: e9f1f7;
+    --heading-font: "Trebuchet", Helvetica, sans-serif;
+    --body-font: "Georgia", sans-serif;
+    --padding: 1rem;
+    --border: 1px solid rgb(0 0 0 / 0.1);
+}
+
+
+.body {
+    font-family: Georgia;
+}
+
+
+
+/*-- right  below   --*/
+h1, h2, h3, h4, h5, h6 { font-family: "Trebuchet", serif; }
