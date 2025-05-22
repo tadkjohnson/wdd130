@@ -1,0 +1,130 @@
+:root {
+    --heading-background-color: rgb(108, 163, 235);
+    --heading-text-color: #333;
+    --heading-text-color2: #f8f6f6;
+    --heading-text-color3: #d8d3d3;
+    --box-border-color: #7e777771;
+    --heading-font: 'Montserrat', Helvetica, sans-serif;
+    --padding: 1rem;
+    --border: 1px solid rgb(0 0 0 / 0.1);
+}
+
+
+/* comment everything root, h1 besides color, and aside besides width and margin came from week 3 from book*/
+/* 5/17 changed roots, margins, home and rafting site colors do i like white or black for thier colors? */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* make margin 10px padding 20 to make page look good  and leave border box has to be 0's for class */
+
+nav {
+    background-color: var(--heading-background-color);
+    padding: var(--padding);
+}
+
+header {
+    padding: var(--padding);
+}
+
+nav a {
+    color: var(--heading-text-color);
+    display: block;
+    padding: 5px;
+}
+
+h1 {
+    background-color: var(--heading-background-color);
+    color: var(--heading-text-color);
+    font-family: var(--heading-font);
+    padding: var(--padding);
+}
+
+img {
+    width: 150px;
+    height: auto;
+    border: 1px solid var(--heading-text-color);
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    clear: both;
+}
+
+p {
+    padding: var(--padding);
+}
+
+main {
+    max-width: 840px;
+}
+
+aside {
+    position: relative;
+    margin: 10px;
+    border: 10px solid var(--heading-text-color);
+    padding: 20px;
+    background-color: rgba(211, 211, 211, 0.973);
+    color: var(--heading-text-color);
+    text-align: center;
+
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+/*position of state name in box  if h2 is relative needs to be 35px 5px  if aboslute its 800 300*/
+
+aside h2 {
+    position: absolute;
+    top: 840px;
+    left: 380px;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    float: right;
+    margin: 20px;
+    clear: both;
+}
+
+p {
+    padding: 0;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid var(--heading-text-color);
+    text-align: left;
+}
+
+/* ideas to create boxes around things to make it all flow */
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
+.box3 {
+    margin: 1rem;
+    padding: 10px;
+
+}
+
+.box2 {
+    max-width: 840px;
+    margin: 0rem;
+    border: 10px solid var(--box-border-color);
+    padding: 20px;
+    background-color: var(--heading-text-color3);
+    color: var(--heading-text-color);
+}
+
+/* Class Selectors */
+/* Class Selecftors */
