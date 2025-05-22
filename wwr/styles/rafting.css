@@ -1,12 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 :root {
     --secondary-color: #e7dfc6;
     --primary-color: #2274a5;
     --accent2-color: #816c61;
     --accent1-color: #131b23;
-    --heading-font: "Trebuchet", sans-serif;
-    --body-font: "Georgia", sans-serif;
+    --heading-font: .ancizar-sans-<uniquifier> sans-serif;
+    --body-font: .lato-light, sans-serif;
 
 }
+
+
+
+/*fonts below*/
+
+
+.ancizar-sans-<uniquifier> {
+    font-family: "Ancizar Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
 
 header {
     background-color: var(--primary-color);
@@ -62,6 +95,7 @@ article {
 h1 {
     position: absolute;
     top: 20px;
+    left: 0px;
     width: 100%;
     padding: 16px;
     text-align: center;
@@ -79,9 +113,10 @@ h1 {
 
 .stats {
     position: absolute;
-    bottom: 15px;
-    left: -25px;
-    background: radial-gradient(#eee, #f8f8f5);
+    bottom: 20px;
+    left: -15px;
+    background: var(--accent1-color);
+    color: var(--secondary-color);
     /* border: 1px solid #000; */
     /* padding: 0.65rem; */
     /* box-shadow: 0 0 30px #111; */
@@ -94,6 +129,8 @@ h1 {
     opacity: 0.9;
     /* If removed, what happens? */
 }
+
+
 
 /*-- style the above image to fit the box, and move things around so it fits right.to step 4 style the hero div with overlays     --*/
 
