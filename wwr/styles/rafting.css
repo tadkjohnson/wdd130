@@ -6,13 +6,14 @@
     --box-border-color: e9f1f7;
     --heading-font: "Trebuchet", Helvetica, sans-serif;
     --body-font: "Georgia", sans-serif;
-    
+
 }
 
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -23,17 +24,24 @@ body {
     font-family: var(--body-font);
     color: var(--accent1-color);
 }
-header, main, footer {
+
+header,
+main,
+footer {
     width: 840px;
     margin: 0 auto;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
-nav, p, section, article {
+nav,
+p,
+section,
+article {
     margin: 16px;
     padding: 8px;
 }
@@ -45,6 +53,7 @@ nav, p, section, article {
 .hero {
     position: relative;
 }
+
 .hero img {
     display: block;
     width: 100%;
@@ -59,8 +68,10 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color:#fff;  /*white text -check contrast*/    
+    color: #fff;
+    /*white text -check contrast*/
 }
+
 .hero article img {
     float: right;
     width: 125px;
@@ -70,5 +81,3 @@ h1 {
 /*-- style the above image to fit the box, and move things around so it fits right.to step 4 style the hero div with overlays     --*/
 
 /*-- to step 4 style the hero div with overlays     --*/
-
-
