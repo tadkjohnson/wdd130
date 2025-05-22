@@ -1,10 +1,9 @@
 :root {
-    --heading-background-color: e7dfc6;
-    --heading-text-color: 2274a5;
-    --heading-text-color2: 816c61;
-    --heading-text-color3: 131b23;
-    --box-border-color: e9f1f7;
-    --heading-font: "Trebuchet", Helvetica, sans-serif;
+    --secondary-color: #e7dfc6;
+    --primary-color: #2274a5;
+    --accent2-color: #816c61;
+    --accent1-color: #131b23;
+    --heading-font: "Trebuchet", sans-serif;
     --body-font: "Georgia", sans-serif;
 
 }
