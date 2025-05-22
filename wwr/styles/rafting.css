@@ -5,8 +5,8 @@
     --primary-color: #2274a5;
     --accent2-color: #816c61;
     --accent1-color: #131b23;
-    --heading-font: lato-bold, sans-serif;
-    --body-font: lato-light, sans-serif;
+    --heading-font: ".lato-bold", sans-serif;
+    --body-font: ".lato-light", sans-serif;
 }
 
 .lato-light {
