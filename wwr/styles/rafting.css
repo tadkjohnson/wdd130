@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 
 :root {
     --secondary-color: #e7dfc6;
@@ -8,18 +9,6 @@
     --heading-font: .ancizar-sans-<uniquifier> sans-serif;
     --body-font: .lato-light, sans-serif;
 
-}
-
-
-
-/*fonts below*/
-
-
-.ancizar-sans-<uniquifier> {
-    font-family: "Ancizar Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
 }
 
 .lato-light {
