@@ -69,10 +69,6 @@ article {
     text-decoration: none;
 }
 
-.hero {
-    position: relative;
-}
-
 .hero img {
     display: block;
     width: 100%;
@@ -110,11 +106,11 @@ h1 {
     opacity: 0.9;
 }
 
-.herodiv {
+.hero {
     margin: 10px auto;
     position: relative;
     opacity: 0.9;
-    /* If removed, what happens? */
+    position: relative;
 }
 
 
