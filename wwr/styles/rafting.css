@@ -97,20 +97,18 @@ h1 {
 .stats {
     position: absolute;
     bottom: 20px;
-    left: -15px;
+    right: 0px;
     background: var(--accent1-color);
     color: var(--secondary-color);
     /* border: 1px solid #000; */
     /* padding: 0.65rem; */
     /* box-shadow: 0 0 30px #111; */
-    opacity: 0.9;
-}
+    }
 
 .hero {
     margin: 10px auto;
     position: relative;
     opacity: 0.9;
-    position: relative;
 }
 
 
