@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-
 :root {
     --secondary-color: #e7dfc6;
     --primary-color: #2274a5;
@@ -8,25 +6,6 @@
     --heading-font: ".lato-bold", sans-serif;
     --body-font: ".lato-light", sans-serif;
 }
-
-.lato-light {
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-}
-
-.lato-bold {
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}
-
-.lato-black {
-    font-family: "Lato", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-}
-
 
 header {
     background-color: var(--primary-color);
@@ -47,7 +26,7 @@ body {
 header,
 main,
 footer {
-    width: 840px;
+    width: 1600px;
     margin: 0 auto;
 }
 
@@ -57,25 +36,17 @@ h2 {
     color: var(--primary-color);
 }
 
-nav,
-p,
-section,
-article {
-    margin: 16px;
-    padding: 8px;
-}
-
 .socialmedia a {
     text-decoration: none;
 }
 
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
+.hero {
+    margin: 10px auto;
+    position: relative;
+    opacity: 0.9;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     left: 0px;
@@ -85,13 +56,7 @@ h1 {
     opacity: 0.8;
     background-color: var(--accent1-color);
     color: #fff;
-    /*white text -check contrast*/
-}
-
-.hero article img {
-    float: right;
-    width: 125px;
-
+    /*white text -check contrast pic vs background of banner every change as it can get looking "off" */
 }
 
 .stats {
@@ -105,11 +70,28 @@ h1 {
     /* box-shadow: 0 0 30px #111; */
     }
 
-.hero {
-    margin: 10px auto;
-    position: relative;
-    opacity: 0.9;
+
+
+
+
+
+
+
+
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
+
+
+.hero article img {
+    float: right;
+    width: 125px;
+
+}
+
 
 
 
