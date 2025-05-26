@@ -24,7 +24,7 @@
 nav {
     background-color: var(--heading-background-color);
     padding: var(--padding);
-    display: flex; 
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -41,15 +41,17 @@ nav a {
 
 /*position of state name in box  if h2 is relative needs to be 35px 5px  if aboslute its 800 300*/
 
-header, .grid, footer {
+header,
+.grid,
+footer {
     max-width: 840px;
     margin: 0 auto;
- }
+}
 
- .grid {
+.grid {
     display: grid;
     padding: 20px;
-        /* align-items: center; */
+    /* align-items: center; */
 
 }
 
@@ -64,7 +66,7 @@ aside {
     position: relative;
     grid-column: 1/2;
     grid-row: 1/2;
-    
+
     /* position: relative; 
      margin: 10px; 
     border: 10px solid var(--heading-text-color);
@@ -85,9 +87,12 @@ h1 {
     color: var(--heading-text-color);*/
     font-family: var(--heading-font);
     padding: var(--padding);
-    border-bottom: 1px solid black; 
+    border-bottom: 1px solid black;
     border-bottom-width: 2px;
-/* bottom border not working  figure it out  */
+    width: 400px;
+    text-align: center;
+
+    /* bottom border not working  figure it out  */
 }
 
 img {
