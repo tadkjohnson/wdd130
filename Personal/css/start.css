@@ -1,0 +1,32 @@
+:root {
+    --secondary-color: #e7dfc6;
+    --primary-color: #2274a5;
+    --accent2-color: #816c61;
+    --accent1-color: #131b23;
+    --heading-font: ".lato-bold", sans-serif;
+    --body-font: ".lato-light", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    border: 3px dashed darkblue;
+    background-color: white;
+    display: flex;
+    flex-direction: row;    /* display: flex;  default is row, can do columns,     */
+    /* row or column  */
+    justify-content: center;
+    /* start is left, end is right, center is center, space-around is equally spaced, space between is 1 on each end others spaced in middle,   */
+
+    /* flex-wrap: wrap  makes them wrap around;   align-items: stretch; center (its alongthe line in the middle of the box main axis)  can do reverse row or revers column also*/
+
+
+
+}
+
+
+/* id name it example "h1" does h1   * is everything  .box is a class selection img is all images 2 are used the most not sure which 2 are used most yet cant remember*/
