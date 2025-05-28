@@ -7,15 +7,10 @@
     --body-font: ".lato-light", sans-serif;
 }
 
-header {
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
 }
 
 body {
@@ -30,11 +25,31 @@ footer {
     margin: 0 auto;
 }
 
-h1,
-h2 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
+
+header {
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+}
+
+.navigation-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
 
 .socialmedia a {
     text-decoration: none;
@@ -65,16 +80,7 @@ h2 {
     float: right;
     background: var(--accent1-color);
     color: var(--secondary-color);
-    }
-
-
-
-
-
-
-
-
-
+}
 
 .hero img {
     display: block;
@@ -92,6 +98,4 @@ h2 {
 
 
 
-/*-- 5/23 removed the div, everything else same     --*/
-
-/*-- to step 4 style the hero div with overlays     --*/
+/*--      --*/
