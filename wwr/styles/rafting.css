@@ -112,8 +112,10 @@ header {
 
 .section-adventure {
     display: grid;
-    grid-template: 50px / 1fr 1fr 1fr 1fr 1fr      
-}
+    grid-template: 50px / 1fr 1fr 1fr 1fr 1fr;      
+    grid-gap: 50px;
+    text-align: match-parent;
+    }
 
 .image1 {
     grid-column: 1 ;
