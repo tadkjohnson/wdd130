@@ -64,8 +64,12 @@ header {
     box-sizing: border-box;
 }
 
-.socialmedia a {
+.socialmedia {
     text-decoration: none;
+    text-align: right;
+    /* display: grid;
+    grid-template-columns: 1fr;
+    align-content: right; */
 }
 
 .hero {
@@ -130,4 +134,6 @@ header {
     grid-column: 5 ;
     grid-row: 2 ;
 }
+
+
 /*--      --*/
