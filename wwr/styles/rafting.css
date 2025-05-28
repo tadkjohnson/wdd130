@@ -25,7 +25,6 @@ footer {
     margin: 0 auto;
 }
 
-
 header {
     background-color: var(--secondary-color);
     color: var(--accent2-color);
@@ -33,7 +32,7 @@ header {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .navigation-bar {
@@ -42,14 +41,20 @@ header {
     align-items: center;
 }
 
+.grid-section-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.h2 {
+    grid-row: 1;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-
-
 
 .socialmedia a {
     text-decoration: none;
