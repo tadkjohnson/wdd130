@@ -8,9 +8,17 @@
 }
 
 h1,
-h2 {
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+}
+
+a {
+    text-decoration: none;
 }
 
 body {
@@ -21,7 +29,7 @@ body {
 header,
 main,
 footer {
-    width: 1460px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -43,12 +51,13 @@ header {
 
 .grid-section-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 200px 1fr 1fr;
 }
 
 .h2 {
     grid-column: 3;
     text-align: center;
+    padding-top: 20px;
 }
 
 .history-p {
@@ -68,17 +77,13 @@ header {
 .socialmedia {
     display: flex;
     text-decoration: none;
-    text-align: center;
-    justify-content: space-between;
-    /* display: grid;
-    grid-template-columns: 1fr;
-    align-content: right; */
+    justify-content: end;
+    text-align: bottom;
 }
 
 .hero {
-    margin: 10px auto;
+    /* margin: 10px auto; */
     position: relative;
-    opacity: 0.9;
 }
 
 .hero h1 {
@@ -88,18 +93,20 @@ header {
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.8;
     background-color: var(--accent1-color);
     color: #fff;
     /*white text -check contrast pic vs background of banner every change as it can get looking "off" */
 }
 
-.stats {
+.hero-article {
     position: absolute;
-    bottom: 0px;
+    top: 35rem;
+    left: 2rem;
+    right: 2rem;
     float: right;
-    background: var(--accent1-color);
-    color: var(--secondary-color);
+    background: #fcfdff93;
+    text-align: center;
+    color: black;
 }
 
 .hero img {
@@ -115,9 +122,8 @@ header {
 
 .section-adventure {
     display: grid;
-    grid-template: 25px / 1fr 1fr 260px 1fr 1fr;
+    grid-template: 50px / 200px 200px 200px 200px 200px;
     grid-gap: 50px;
-    text-align: match-parent;
 }
 
 .image1 {
@@ -144,15 +150,11 @@ header {
     grid-row: 2;
 }
 
-.ending {
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-    }
-.ending-info {
-    display: flex;
-    align-items: center;
-    text-align:center
+.image-6 {
+    grid-column: 3;
+    grid-row: 2;
+    align-content: center;
 }
+
 
 /*--      --*/
