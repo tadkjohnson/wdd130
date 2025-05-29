@@ -101,12 +101,17 @@ header {
 .hero-article {
     position: absolute;
     top: 35rem;
-    left: 2rem;
-    right: 2rem;
+    left: 3rem;
+    right: 3rem;
     float: right;
     background: #fcfdff93;
-    text-align: center;
+    }
+
+.hero-article-p {
+    padding: 2rem;
     color: black;
+    font-weight: 600;
+    font-size: 1rem;
 }
 
 .hero img {
