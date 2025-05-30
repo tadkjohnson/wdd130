@@ -40,13 +40,20 @@ header {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+
+}
+.header-img {
+    grid-column: 2;
+    padding: 20px;
 }
 
 .navigation-bar {
     display: flex;
     justify-content: space-around;
+    grid-gap: 20px;
     align-items: center;
+    grid-column: 3;
 }
 
 .grid-section-container {
@@ -77,7 +84,7 @@ header {
 
 
 .hero {
-    margin: 10px auto; 
+    margin: 10px auto;
     position: relative;
 }
 
@@ -100,7 +107,7 @@ header {
     right: 3rem;
     float: right;
     background: #fcfdff93;
-    }
+}
 
 .hero-article-p {
     padding: 2rem;
@@ -162,7 +169,7 @@ header {
     font-weight: 600;
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
-    padding: 2rem;
+    padding:1rem;
 }
 
 .social {
