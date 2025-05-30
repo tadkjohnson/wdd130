@@ -43,6 +43,7 @@ header {
     grid-template-columns: 1fr 2fr 2fr 1fr;
 
 }
+
 .header-img {
     grid-column: 2;
     padding: 20px;
@@ -82,8 +83,6 @@ header {
     padding: 0;
     box-sizing: border-box;
 }
-
-
 
 .hero {
     margin-top: 1rem;
@@ -172,7 +171,7 @@ header {
     margin-top: 10px;
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
-    padding:1rem;
+    padding: 1rem;
 }
 
 .social {
