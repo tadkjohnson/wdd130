@@ -14,7 +14,7 @@ header {
 
 
 * {
-    margin: 0;
+    margin: 20px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -44,7 +44,7 @@ caption {
 
 thead,
 tfoot {
-  background-color: rgb(228 240 245);
+  background-color: rgb(79, 196, 247);
 }
 
 th,
@@ -58,7 +58,7 @@ td:last-of-type {
 }
 
 tbody > tr:nth-of-type(even) {
-  background-color: rgb(237 238 242);
+  background-color: rgb(245, 156, 218);
 }
 
 tfoot th {
@@ -69,3 +69,12 @@ tfoot td {
   font-weight: bold;
 }
 
+/* form element under here table above  */
+label {
+  display: block;
+  margin-top: 1rem;
+}
+
+button {
+  margin-top: 2rem;
+}
