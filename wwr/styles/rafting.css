@@ -179,5 +179,25 @@ header {
     justify-self: end;
 }
 
+h3 {
+    grid-column:3;
+    justify-self:end;
+}
+
+.map-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.section-guides {
+    display: grid;
+    grid-template: 50px / 200px 200px 200px 200px 200px;
+    grid-gap: 10px;
+}
+
+
 
 /*--      --*/
