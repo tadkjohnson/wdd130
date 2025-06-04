@@ -42,11 +42,12 @@ body {
 fieldset {
     display: grid;
     /* grid-template-columns: 1fr 2fr; */
-    grid-gap: 0px;
+    grid-gap: .5em;
     margin: 1rem;
     border: 2px solid #000;
     padding: 1rem;
 }
+
 
 legend {
     padding: 0.5rem;
@@ -74,7 +75,8 @@ label {
 input [type="checkbox"] {
     width: 20px;
     height: 20px;
-    vertical-align: bottom;
+    vertical-align:auto;
+
 }
 
 button {
@@ -101,12 +103,19 @@ footer {
     border-top: 1px solid #ccc;
 }
 
-.form-item {
+/* .form-item {
     display: grid;
-    align-items: center;
-}
+    /* align-items: left; */
+/* } */ */
 
 .column2 {
     margin: 1rem 0;
     grid-column: 1;
+}
+
+.pet {
+    margin: 0;
+    align-items:left;
+
+
 }
