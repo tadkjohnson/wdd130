@@ -69,7 +69,7 @@
                     <input type="text" id="firstname" name="firstname">
                 </div>
                 <div>
-<!-- need to make boxes longer to fill the gap, see if you can make interior lines disappear,  and fix the submit button test again.  need to find out what radio is on map -->
+<!-- need to make boxes longer to fill the gap, see if you can make interior lines disappear,  -->
                     <label for="lastname">Last Name</label>
                     <input type="text" id="lastname" name="lastname">
                 </div><div>
@@ -98,9 +98,22 @@
                     
                     <label for="newsletter">Suscribe to our a newsletter?</label>
                     <input type="checkbox" id="newsletter" name="newsletter">
-
+<!-- add 3 radio   ie drop down pick a option type thing -->
                 </div>
             </fieldset>
+            <!-- below is it a radio? -->
+             <fieldset>
+                <legend>Questions</legend>
+                <label for="browser">What is your favorite internet browser?</label>
+                <select id="browser" name="browser">
+                    <option value="Chrome">Chrome</option>
+                    <option value="Firefox">Firefox</option>
+                    <option value="Edge">Edge</option>
+                    <option value="Safari">Safari</option>
+                    <option value="Brave">Brave</option>
+                    <option value="Other">Other</option>
+                </select>
+             </fieldset>
 
             <button type="submit">Submit </button> 
         </form>
