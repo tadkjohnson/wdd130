@@ -200,13 +200,14 @@ h3 {
 
 
 form {
-    width: 800px;
+    width: 1000px;
     margin: .5em auto;
     padding: 20px;
     border: 5px solid var(--accent1-color);
     border-radius: 2rem;
     background-color: var(--accent2-color);
     display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 legend {
@@ -218,12 +219,16 @@ legend {
 label,
 input,
 select,
-textarea {
+textarea,
+.form-grid {
     font-family: var(--body-font);
     padding: .5em;
     font-size: 1em;
     font-size: 100%;
     color: var(--accent1-color);
+
+    
+    
 }
 button {
     margin: .5rem;
@@ -233,12 +238,13 @@ button {
     border: 1px solid var(--accent1-color);
     border-radius: 5rem;
     padding: .2rem;
-}
+    }
 
 button:hover {
     background-color: var(--primary-color);
     color: var(--accent1-color);
 
 }
+
 
 /*--      --*/
