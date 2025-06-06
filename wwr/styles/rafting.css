@@ -199,5 +199,46 @@ h3 {
 }
 
 
+form {
+    width: 800px;
+    margin: .5em auto;
+    padding: 20px;
+    border: 5px solid #000;
+    border-radius: 2rem;
+    background-color: #eee;
+    display: grid;
+}
+
+legend {
+    padding: 0.5rem;
+    color: #000;
+    font-size: 1.3em;
+}
+
+label,
+input,
+select,
+textarea {
+    font-family: var(--body-font);
+    padding: .5em;
+    font-size: 1em;
+    font-size: 100%;
+    color: black;
+}
+button {
+    margin: .5rem;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-weight: 600;
+    border: 1px solid #000;
+    border-radius: 5rem;
+    padding: .2rem;
+}
+
+button:hover {
+    background-color: var(--primary-color);
+    color:#000;
+
+}
 
 /*--      --*/

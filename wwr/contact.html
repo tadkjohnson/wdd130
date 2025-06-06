@@ -46,14 +46,14 @@
         <section class="section-guides">
             <h3>Meet our River Guides</h3>
 
-            <figure class="image1"> <img src="images/rafting-one.jpg" alt="River Guide Bob" width="200">
+            <figure class="image1"> <img src="images/happy-employ1.jpg" alt="River Guide Bob" width="200" >
                 <figcaption> Bob A. Long, Over 10 years of rafting the worlds rivers.</figcaption>
             </figure>
-            <figure class="image3"> <img class="image2" src="images/rafting-nine.jpg" alt="River Guide Bubbles"
-                    width="200">
+            <figure class="image3"> <img class="image2" src="images/captain.jpg" alt="River Guide Bubbles"
+                    width="160">
                 <figcaption> Bubbles R. Strong, Over 5 years of rafting the local rivers. </figcaption>
             </figure>
-            <figure class="image5"><img src="images/rafting-six.jpg" alt="River Guide Guy" width="200">
+            <figure class="image5"><img src="images/happy-employ-3.jpg" alt="River Guide Guy" width="200">
                 <figcaption> Guy A Float, Spent his youth floating on the lazy river. </figcaption>
             </figure>
         </section>
@@ -61,24 +61,32 @@
 
 
 
-        <fieldset>
-            <legend>Questions</legend>
-            <label for="browser">What is your favorite internet browser?</label>
-            <select id="browser" name="browser">
-                <option value="Chrome">Chrome</option>
-                <option value="Firefox">Firefox</option>
-                <option value="Edge">Edge</option>
-                <option value="Safari">Safari</option>
-                <option value="Brave">Brave</option>
-                <option value="Other">Other</option>
-            </select>
-            <!-- <input type="checkbox" id="pet" name="pet"> -->
-            <label for="pet">Do you have a pet?</label>
-            <input type="checkbox" id="pet" name="pet">
-            <label for="feedback">List the places you have lived:</label>
-            <textarea id="feedback" name="feedback" rows="4"
-                placeholder="Heaven, Earth, Here, There, Over Yander"></textarea>
-        </fieldset>
+         <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div>
+                    <label for="fullname">Name</label>
+                    <input type="text" id="fullname" name="fullname">
+                
+                    <label for="email">Email address</label>
+                    <input type="email" id="email" name="email">
+                </div>
+            </fieldset>
+            <fieldset>
+                <div>
+                    <legend>Please leave a comment</legend>
+                    <textarea id="feedback" name="feedback" rows="5"
+                    placeholder="General Inquire, Reservations, Website Suggestion?"></textarea>
+                    
+                    <label for="newsletter">Suscribe to our a newsletter?</label>
+                    <input type="checkbox" id="newsletter" name="newsletter">
+
+                </div>
+            </fieldset>
+
+            <button type="submit">Submit </button> 
+        </form>
+
         <a href="https://app.moqups.com/hA4W8PDJlUlXwcMHEHhl152t0tmf6q6j/view/page/ad64222d5" target="_blank">Wire Frame
             page on Moqups</a>
 
