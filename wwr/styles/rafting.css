@@ -66,6 +66,8 @@ header {
     grid-column: 3;
     text-align: center;
     padding-top: 20px;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
 }
 
 .history-p {
