@@ -9,10 +9,16 @@
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+h3 {
+    grid-column:3;
+    justify-self:end;
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
@@ -181,11 +187,6 @@ header {
     justify-self: end;
 }
 
-h3 {
-    grid-column:3;
-    justify-self:end;
-}
-
 .map-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -228,9 +229,7 @@ textarea,
     font-size: 1em;
     font-size: 100%;
     color: var(--accent1-color);
-
-    
-    
+        
 }
 button {
     margin: .5rem;
