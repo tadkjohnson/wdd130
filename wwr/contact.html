@@ -46,22 +46,18 @@
         <section class="section-guides">
             <h3>Meet our River Guides</h3>
 
-            <figure class="image1"> <img src="images/happy-employ1.jpg" alt="River Guide Bob" width="200" >
+            <figure class="image1"> <img src="images/happy-employ1.jpg" alt="River Guide Bob" width="200">
                 <figcaption> Bob A. Long, Over 10 years of rafting the worlds rivers.</figcaption>
             </figure>
-            <figure class="image3"> <img class="image2" src="images/captain.jpg" alt="River Guide Bubbles"
-                    width="160">
+            <figure class="image3"> <img class="image2" src="images/captain.jpg" alt="River Guide Bubbles" width="160">
                 <figcaption> Bubbles R. Strong, Over 5 years of rafting the local rivers. </figcaption>
             </figure>
             <figure class="image5"><img src="images/happy-employ-3.jpg" alt="River Guide Guy" width="200">
                 <figcaption> Guy A Float, Spent his youth floating on the lazy river. </figcaption>
             </figure>
         </section>
-        <!-- need to build the form questionaire from 4 down and get pics for number 3 -->
-
-
-
-         <form>
+        
+        <form>
             <fieldset>
                 <legend>Contact Information</legend>
                 <div>
@@ -69,69 +65,56 @@
                     <input type="text" id="firstname" name="firstname">
                 </div>
                 <div>
-<!-- need to make boxes longer to fill the gap, see if you can make interior lines disappear,  -->
+                    <!-- need to make boxes longer to fill the gap, see if you can make interior lines disappear,  -->
                     <label for="lastname">Last Name</label>
                     <input type="text" id="lastname" name="lastname">
-                </div><div>
+                </div>
+                <div>
 
                     <label for="email">Email address</label>
                     <input type="email" id="email" name="email">
-                </div><div>
+                </div>
+                <div>
 
                     <label for="wantedriver">River Desired</label>
                     <input type="text" id="wantedriver" name="wantedriver">
-                   </div><div>
+                </div>
+                <div>
 
-                    <label for="travelyear">Year to travel</label>
-                    <input type="number" id="travelyear" name="travelyear">
-                </div><div>
-                    
+                    <label for="daysonriver"># of days</label>
+                    <input type="number" id="daysonriver" name="daysonriver">
+                </div>
+                <div>
+
                     <label for="numpeople"># of travelers</label>
                     <input type="number" id="numpeople" name="numpeople">
                 </div>
             </fieldset>
             <fieldset>
-                <legend>Please leave a comment</legend>
-                <div>                    
-                    <textarea id="feedback" name="feedback" rows="12"
-                    placeholder="General Inquire, Reservations, Website Suggestion?"></textarea>
-                    
-                    <label for="newsletter">Suscribe to our a newsletter?</label>
-                    <input type="checkbox" id="newsletter" name="newsletter">
-<!-- add 3 radio  look at number 4 under employe profile pics in the form.  find out waht it is  ie drop down pick a option type thing -->
+                <form>
+                    <p>Is your contact regarding:</p>
+                    <input type="radio" id="comment" name="radio" value="comment">
+                    <label for="comment">A Comment</label>
+                    <input type="radio" id="res-ques" name="radio" value="res-ques">
+                    <label for="res-ques">Reservation Questions?</label>
+                    <input type="radio" id="web-sug" name="radio" value="web-sug">
+                    <label for="web-sug">Website Suggestion?</label>
+                </form>
+                <legend>Please leave a message.</legend>
+                <div>
+                    <textarea id="feedback" name="feedback" rows="8" cols="60" placeholder="Contact us..."></textarea>
                 </div>
+                <div>
+                <label for="newsletter">Suscribe to our a newsletter?</label>
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <button type="submit"> Submit </button>
+                </div>
+                
             </fieldset>
-            <!-- below is it a radio? -->
-             <fieldset>
-                <legend>Questions</legend>
-                <label for="danger">How dangerous of a river do you want?</label>
-                <select id="danger" name="danger">
-                    <option value="deadly">Deadly</option>
-                    <option value="exciting">Excitment</option>
-                    <option value="lazy river">Lazy River</option>
-                    <option value="lame">Lame</option>
-                </select>
-             </fieldset>
-
-            <button type="submit">Submit </button> 
+           
         </form>
 
-<form>
-    <fieldset>
-        <label for="wants?">what you want?</label>
-        <radio type="radio"></radio>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        
-
-
-
-    </fieldset>
-</form>
-
-
-
-        <a href="https://app.moqups.com/hA4W8PDJlUlXwcMHEHhl152t0tmf6q6j/view/page/ad64222d5" target="_blank">Wire Frame
+            <a href="https://app.moqups.com/hA4W8PDJlUlXwcMHEHhl152t0tmf6q6j/view/page/ad64222d5" target="_blank">Wire Frame
             page on Moqups</a>
 
     </main>
