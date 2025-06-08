@@ -234,7 +234,7 @@ textarea,
 button {
     margin: .5rem;
     background-color: var(--secondary-color);
-    color: var(--primary-color);
+    color: var(--accent1-color);
     font-weight: 600;
     border: 1px solid var(--accent1-color);
     border-radius: 5rem;
@@ -242,8 +242,9 @@ button {
     }
 
 button:hover {
-    background-color: var(--primary-color);
-    color: var(--accent1-color);
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+    font-weight: 600;
 
 }
 
