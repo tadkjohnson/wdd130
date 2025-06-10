@@ -112,14 +112,15 @@ header {
 .hero-article {
     position: absolute;
     top: 35rem;
-    left: 3rem;
-    right: 3rem;
+    width: 100%;
     float: right;
     background: var(--secondary-color);
 }
 
 .hero-article-p {
     padding: 2rem;
+    left: 0px;
+    right: 0px;
     color: var(--accent1-color);
     font-weight: 600;
     font-size: 1rem;
