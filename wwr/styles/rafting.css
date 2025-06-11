@@ -25,6 +25,9 @@ h3 {
 
 a {
     text-decoration: none;
+    /* background-color: var(--accent1-color); */
+    /* color: var(--accent2-color); */
+    font-weight: 600;
 }
 
 body {
@@ -124,7 +127,7 @@ header {
     color: var(--accent1-color);
     font-weight: 600;
     font-size: 1rem;
-}
+    }
 
 .hero img {
     display: block;
@@ -247,8 +250,22 @@ button:hover {
     font-weight: 600;
 
 }
+.hero-button {
+    margin-left: 35rem;
+    padding: 15px;
+    background:#a00202;
+    font: #000;;
+    border: 5px solid var(--accent1-color);
+    font-size: small;
+    font-weight: 900; 
 
+}
 
-
+button2 {
+    text-decoration: none;
+    /* background-color: var(--accent1-color); */
+    color: var(--accent2-color); 
+    font-weight: 600;
+}
 
 /*--      --*/
