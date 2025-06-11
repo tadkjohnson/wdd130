@@ -202,7 +202,6 @@ header {
     grid-gap: 10px;
 }
 
-
 form {
     width: 1000px;
     margin: .5em auto;
@@ -248,6 +247,8 @@ button:hover {
     font-weight: 600;
 
 }
+
+
 
 
 /*--      --*/
