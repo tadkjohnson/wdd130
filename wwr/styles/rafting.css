@@ -177,13 +177,14 @@ header {
 }
 
 .socialmedia {
-    background-color: var(--secondary-color);
+    background-color: #dfd5cb;
     color: var(--accent1-color);
     font-weight: 600;
     margin-top: 10px;
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
     padding: 1rem;
+    border-top: #131b23 solid 3px;
 }
 
 .social {
@@ -254,18 +255,27 @@ button:hover {
     margin-left: 35rem;
     padding: 15px;
     background:#a00202;
-    font: #000;;
+    font: #ee1313;;
     border: 5px solid var(--accent1-color);
     font-size: small;
     font-weight: 900; 
 
 }
+.book-adventure {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
 
-button2 {
-    text-decoration: none;
-    /* background-color: var(--accent1-color); */
-    color: var(--accent2-color); 
-    font-weight: 600;
+
 }
+.button2 {
+    column-span: 3;
+    padding: 30px;
+    background:#b9b4b4;
+    border: 5px solid var(--accent1-color);
+    font-size: large;
+    font-weight: 900; 
+    column-span: 2 / 4
 
+}
 /*--      --*/
