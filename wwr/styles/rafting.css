@@ -264,7 +264,8 @@ button:hover {
 .book-an-adventure {
     display: grid;
     grid-template-columns: 100px / 1fr 1fr 1fr;
-    
+    padding-top: 20px;
+    padding-bottom: 20px;
 
 
 
@@ -273,6 +274,7 @@ button:hover {
     grid-column:span 3; 
     text-align: center;
     padding: 10px;
+    margin-bottom: 10px;
     background:#b9b4b491;
     border: 5px solid var(--accent1-color);
     font-size: large;
