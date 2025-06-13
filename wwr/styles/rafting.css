@@ -275,9 +275,10 @@ button:hover {
 
 .fix-spacing1 {
     padding: 10px;
-    text-align: center;    
-    
+    text-align: center;
+    font-weight: 400;       
 }
+
 .trip-table {
     columns: 1 ;
     padding:20px;
@@ -295,15 +296,17 @@ td {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-top: 10px;
-    padding-bottom: 20px;
+    grid-gap: 1em;
     }
  
 .hero-button {
     padding: 10px;
     border: 2px solid #4d0e0e;
     font-size: medium;
-    font-weight:600; 
-    justify-self: end; 
+    font-weight:600;
+    /* vertical-align: bottom; */
+
+   
     
 
 }
