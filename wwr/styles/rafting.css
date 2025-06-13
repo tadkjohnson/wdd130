@@ -251,15 +251,7 @@ button:hover {
     font-weight: 600;
 
 }
-.hero-button {
-    margin-left: 35rem;
-    padding: 15px;
-    background:#a00202;
-    border: 5px solid var(--accent1-color);
-    font-size: small;
-    font-weight: 900; 
 
-}
 .book-an-adventure {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -279,7 +271,6 @@ button:hover {
     border: 5px solid var(--accent1-color);
     font-size: large;
     font-weight: 900; 
-
 }
 
 .fix-spacing1 {
@@ -287,5 +278,33 @@ button:hover {
     text-align: center;    
     
 }
+.trip-table {
+    columns: 1 ;
+    padding:20px;
 
+}
+th {
+    text-align:start;
+    padding: 5px;
+}
+td {
+    text-align:center;
+}
+
+.trip-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    }
+ 
+.hero-button {
+    padding: 10px;
+    border: 2px solid #4d0e0e;
+    font-size: medium;
+    font-weight:600; 
+    justify-self: end; 
+    
+
+}
 /*--      --*/
