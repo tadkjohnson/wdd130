@@ -230,7 +230,7 @@ textarea,
 .form-grid {
     font-family: var(--body-font);
     padding: .5em;
-    font-size: 1em;
+    font-size: 2em;
     font-size: 100%;
     color: var(--accent1-color);
         
@@ -265,6 +265,7 @@ button:hover {
     grid-template-columns: 1fr 1fr 1fr;
     padding-top: 20px;
     padding-bottom: 20px;
+    justify-self: center;    
 
 
 
@@ -278,7 +279,13 @@ button:hover {
     border: 5px solid var(--accent1-color);
     font-size: large;
     font-weight: 900; 
-   
 
 }
+
+.fix-spacing1 {
+    padding: 10px;
+    text-align: center;    
+    
+}
+
 /*--      --*/
