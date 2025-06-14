@@ -1,0 +1,45 @@
+:root {
+    --secondary-color: #c23e34;
+    --primary-color: #3776ec;
+    --accent2-color: #bbb7b7;
+    --accent1-color: #6f7174;
+    --heading-font: ".lato-bold", sans-serif;
+    --body-font: ".roboto", sans-serif;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+h1,
+h2,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header,
+main,
+footer, 
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.ul {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    margin-top: 20px;
+    grid-gap: 5px;
+    word-wrap:break-word;    
+}
+
+.table1 {
+    grid-column-start: 1; 
+
+}
