@@ -5,6 +5,7 @@
     --accent1-color: #131b23;
     --heading-font: ".lato-bold", sans-serif;
     --body-font: ".roboto", sans-serif;
+
 }
 
 h1,
@@ -50,7 +51,7 @@ header {
 .grid-header-container {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 1fr;
-
+    margin-bottom: 20px;
 }
 
 .header-img {
@@ -196,7 +197,6 @@ header {
 .map-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-top: 20px;
     padding-bottom: 20px;
     margin-left: 2em;
     margin-right: 2em;
@@ -259,10 +259,8 @@ button:hover {
     padding-top: 20px;
     padding-bottom: 20px;
     justify-self: center;    
-
-
-
 }
+
 .button2 {
     grid-column:span 3; 
     text-align: center;
@@ -282,13 +280,16 @@ button:hover {
 
 .trip-table {
     columns: 1 ;
-    padding:20px;
-
+    padding:5px;
+    border-spacing: 10px;  
 }
+
 th {
     text-align:start;
     padding: 5px;
+    border-bottom: .2px solid #000;
 }
+
 td {
     text-align:center;
 }
@@ -296,19 +297,47 @@ td {
 .trip-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-top: 10px;
-    grid-gap: 1em;
+    margin-top: 10px;
+    border: .5px solid;    
 }
  
 .trip-page-button {
-    padding: 10px;
-    border: 2px solid #4d0e0e;
+    border: 2px solid #200404;
     font-size: medium;
     font-weight:600;
     position:absolute;
     border-radius: 20px;
+    padding: 5px;
+    top: 18em;
+    right: 25em;
+    background-color:#e7dfc6;
     
 }
+.trip-pick {
+    display: grid;
+    grid-template: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    width: 100%;
+    justify-items: center;
+}
 
+.trip {
+    justify-items: center;
+}
+
+.image1-1 {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.image2-2 {
+    grid-column: 3;
+    grid-row: 4;
+}
+
+.image3-3 {
+    grid-column: 4;
+    grid-row: 4;
+}
 
 /*-- herobutton trips butotn     --*/
