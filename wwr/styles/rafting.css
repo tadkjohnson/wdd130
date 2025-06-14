@@ -127,6 +127,7 @@ header {
     color: var(--accent1-color);
     font-weight: 600;
     font-size: 1rem;
+    position: relative;
     }
 
 .hero img {
@@ -297,17 +298,17 @@ td {
     grid-template-columns: 1fr 1fr;
     padding-top: 10px;
     grid-gap: 1em;
-    }
+}
  
-.hero-button {
+.trip-page-button {
     padding: 10px;
     border: 2px solid #4d0e0e;
     font-size: medium;
     font-weight:600;
-    /* vertical-align: bottom; */
-
-   
+    position:absolute;
+    border-radius: 20px;
     
-
 }
-/*--      --*/
+
+
+/*-- herobutton trips butotn     --*/
