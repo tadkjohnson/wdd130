@@ -26,8 +26,6 @@ h3 {
 
 a {
     text-decoration: none;
-    /* background-color: var(--accent1-color); */
-    /* color: var(--accent2-color); */
     font-weight: 600;
 }
 
@@ -110,7 +108,7 @@ header {
     text-align: center;
     background-color: var(--accent1-color);
     color: var(--secondary-color);
-    /*white text -check contrast pic vs background of banner every change as it can get looking "off" */
+   
 }
 
 .hero-article {
@@ -340,4 +338,3 @@ td {
     grid-row: 4;
 }
 
-/*-- herobutton trips butotn     --*/
