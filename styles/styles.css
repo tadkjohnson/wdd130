@@ -51,7 +51,7 @@ footer {
 .grid {
     display: grid;
     padding: 20px;
-    /* align-items: center; */
+    align-items: center;
 
 }
 
